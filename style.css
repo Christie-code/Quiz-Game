@@ -37,6 +37,17 @@ body.wrong {
     box-shadow: 0 0 10px 2px;
 }
 
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image img {
+    max-height: 120px;
+    max-width: 120spx;
+}
+
 .btn-grid  {
     display: grid;
     grid-template-columns: repeat(2, auto);
