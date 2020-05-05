@@ -109,7 +109,7 @@ const questions = [
         ]
     },
     {
-        question: 'what is often seen as the smallest unit of memory?',
+        question: 'What is often seen as the smallest unit of memory?',
         answers: [
             {text: 'Megabytes', correct: false },
             {text: 'Kilobytes', correct: true },
@@ -121,18 +121,18 @@ const questions = [
         question: 'In which part of the body is the femur?',
         answers: [
             {text: 'leg', correct: true },
-            {text: 'hand', correct: false },
-            {text: 'nose', correct: false },
-            {text: 'face', correct: false }
+            {text: 'Hand', correct: false },
+            {text: 'Nose', correct: false },
+            {text: 'Face', correct: false }
         ]
     },
     {
         question: 'Which element is said to keep the bones strong?',
         answers: [
-            {text: 'potassium', correct: false },
-            {text: 'nitrogen', correct: false },
-            {text: 'sodium', correct: false },
-            {text: 'calcium', correct: true }
+            {text: 'Potassium', correct: false },
+            {text: 'Nitrogen', correct: false },
+            {text: 'Sodium', correct: false },
+            {text: 'Calcium', correct: true }
         ]
     },
 ]

@@ -1,7 +1,12 @@
+/*custom font*/
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&family=Righteous&display=swap');/*basic reset*/
+* {margin: 0; padding: 0;}
+
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inria Sans', sans-serif, arial, verdana;
 }
+
 :root {
     --hue-neutral: 200;
     --hue-wrong: 0;
@@ -48,6 +53,10 @@ body.wrong {
     max-width: 120spx;
 }
 
+#question {
+    font-style: bold;
+    font-size: large;
+}
 .btn-grid  {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -63,6 +72,9 @@ body.wrong {
     padding: 5px 10px;
     color: white;
     outline: none;
+    height: 50px;
+    font-size: thick;
+    font-style: bold;
 }
 
 .btn:hover {
